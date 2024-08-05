@@ -42,7 +42,7 @@
 &trans         &kp F1     &kp F2    &kp F3     &kp F4     &kp F5                          &kp F6     &kp F7     &kp F8     &kp F9     &kp F10        &kp F11
 &kp LS(N7)     &kp EXCL   &kp LA(L) &kp LA(N8) &kp LA(N9) &kp LA(N7)                      &kp LA(E)  &none      &none      &none      &kp RBRC       &kp F12
 &kp LS(LA(N7)) &kp BSLH   &kp DLLR  &kp LS(N8) &kp LS(N9) &kp CARET                       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp RBKT       &none
-&kp X          &kp GRAVE  &kp TILDE &kp LA(N5) &kp LA(N6) &kp LA(N)                       &kp CARET  &none      &none      &none      &kp LS(N7)      &none
+&kp X          &kp GRAVE  &kp TILDE &kp LA(N5) &kp LA(N6) &kp LA(N)                       &kp CARET  &none      &none      &none      &kp LS(N7)     &none
                           &none     &none                                                                       &none      &none
                                            &none      &none
                                                       &none   &none         &none     &none
@@ -53,11 +53,11 @@
         mouse_layer {
             bindings = <
 &none      &none      &none    &none      &none        &none                            &none      &none      &none     &none      &none          &none
-&none      &none      &none    &none      &none        &none                            &none      &none      &none     &none      &none          &none
-&none      &none      &none    &none      &mo L_SCROLL &none                            &none      &mkp LCLK  &mkp MCLK &mkp RCLK  &none          &none
-&none      &none      &none    &none      &none        &none                            &none      &none      &none     &none      &none          &none
+&none      &none      &none    &none      &none        &kp PG_UP                        &kp LG(Y)  &none      &none     &none      &none          &none
+&none      &kp LG(A)  &none    &none      &kp LG(F)    &kp PG_DN                        &none      &mkp LCLK  &mkp MCLK &mkp RCLK  &none          &none
+&none      &none      &none    &kp LG(C)  &kp LG(V)    &none                            &none      &none      &none     &none      &none          &none
                       &none    &none                                                                          &none     &none 
-                                          &none        &none
+                                          &kp C_AC_SCROLL_DOWN  &kp C_AC_SCROLL_UP
                                                        &none    &none         &none     &none
                                                        &none    &none         &none     &none
             >;
