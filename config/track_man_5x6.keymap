@@ -32,7 +32,7 @@
 &kp LSHIFT &kp Z      &kp X     &kp C      &kp V      &kp B                                       &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RSHIFT
                &kp NON_US_HASH  &kp LGUI                                                                                &kp RGUI  &kp PLUS
                                            &kp BSPC   &kp DEL
-                                                      &kp Y       &kp LALT            &kp SPACE   &kp RET
+                                                      &mo L_MOUSE    &kp LALT            &kp SPACE   &kp RET
                                                       &mo L_SPECIAL  &kp LCTRL        &mo L_SPECIAL  &kp RCTRL
             >;
         };
@@ -57,7 +57,7 @@
 &none      &kp LG(A)  &none    &none      &kp LG(F)    &kp PG_DN                        &none      &mkp LCLK  &mkp MCLK &mkp RCLK  &none          &none
 &none      &none      &none    &kp LG(C)  &kp LG(V)    &none                            &none      &none      &none     &none      &none          &none
                       &none    &none                                                                          &none     &none 
-                                          &kp C_AC_SCROLL_DOWN  &kp C_AC_SCROLL_UP
+                                          &kp DOWN     &kp UP
                                                        &none    &none         &none     &none
                                                        &none    &none         &none     &none
             >;
