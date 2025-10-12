@@ -43,8 +43,8 @@
         special_keys_layer {
             bindings = <
 &trans          &kp F1     &kp F2       &kp F3      &kp F4      &kp F5                                          &kp F6       &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
-&kp LS(N7)      &kp LA(L)  &kp EXCL     &kp LA(N8)  &kp LA(N9)  &kp LA(N7)                                      &kp LA(E)    &none       &none       &none       &kp RBRC    &kp F12
-&kp LS(LA(N7))  &kp BSLH   &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp GRAVE                                       &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT   &kp RBKT    &to L_WINDOWS
+&kp LS(N7)      &kp LA(L)  &kp LS(EQUAL) &kp LA(N8)  &kp LA(N9)  &kp LA(N7)                                      &kp LA(E)    &none       &none       &none       &kp RBRC    &kp F12
+&kp LS(LA(N7))  &kp BSLH   &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp NUBS                                        &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT   &kp RBKT    &to L_WINDOWS
 &kp X           &kp GRAVE  &kp TILDE    &kp LA(N5)  &kp LA(N6)  &kp LA(N)                                       &kp CARET    &none       &none       &none       &kp LS(N7)  &to DEFAULT
                            &none        &none                                                                                            &none       &none
                                                     &none       &none
